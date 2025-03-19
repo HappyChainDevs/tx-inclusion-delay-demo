@@ -6,7 +6,7 @@ const happyTestnet = defineChain({
     name: "Happy Testnet",
     rpcUrls: {
         default: {
-            http: ["https://happy-testnet-sepolia.rpc.caldera.xyz/http"],
+            http: ["https://rpc.testnet.happy.tech/http"],
         },
     },
     nativeCurrency: {
@@ -16,7 +16,7 @@ const happyTestnet = defineChain({
     },
 })
 
-const contractAddress = "0x207E51b45E0A55410F54C371616b5A26A4703DED"
+const contractAddress = "0xAD5A4f9CeaBC2990DD66039FE123828631b4e0Ea"
 
 const abi = [
     {
